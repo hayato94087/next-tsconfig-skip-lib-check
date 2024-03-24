@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "checktime": "tsc --noEmit --diagnostics"
+    "timecheck": "tsc --noEmit --extendedDiagnostics"
   },
   "dependencies": {
     "next": "14.1.4"
